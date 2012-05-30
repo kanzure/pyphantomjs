@@ -15,7 +15,7 @@ See the [quick start guide](http://code.google.com/p/phantomjs/wiki/QuickStart) 
 * producing PDF version of a Wikipedia article
 * rasterizing SVG to image
 
-PyPhantomJS is written in PyQt4 and Python. It runs on Linux, Windows, and Mac OS X.  
+PyPhantomJS is written in PyQt4 and Python. It runs on Linux, Windows, and Mac OS X.
 Refer to the INSTALL file or Wiki links<sup>1</sup> for more information.
 
 Do not forget to consult the concise API Reference<sup>2</sup>
@@ -26,20 +26,19 @@ You can find a list of downloadable plugins [here](http://dev.umaclan.com/projec
 
 If you would like to know how to make plugins, check out this [article](http://dev.umaclan.com/projects/pyphantomjs/wiki/Writing_plugins).
 
-1: http://code.google.com/p/phantomjs/w/list  
-1: http://dev.umaclan.com/projects/pyphantomjs/wiki  
-2: http://dev.umaclan.com/projects/pyphantomjs/wiki/Api_reference  
-2: http://code.google.com/p/phantomjs/wiki/Interface  
-3: http://code.google.com/p/phantomjs/wiki/ContributionGuide  
+1: http://code.google.com/p/phantomjs/w/list
+1: http://dev.umaclan.com/projects/pyphantomjs/wiki
+2: http://dev.umaclan.com/projects/pyphantomjs/wiki/Api_reference
+2: http://code.google.com/p/phantomjs/wiki/Interface
+3: http://code.google.com/p/phantomjs/wiki/ContributionGuide
 3: http://dev.umaclan.com/projects/pyphantomjs/wiki/Giving_back
 
 LICENSING
-------------------
-Copyright (C) 2011 James Roe <<roejames12@hotmail.com>>  
-Copyright (C) 2011 PyPhantomJS authors (see AUTHORS file)
+-----------------------------
+Copyright (C) 2011 James Roe <<roejames12@hotmail.com>>
+Copyright (C) 2011-2012 PyPhantomJS authors (see AUTHORS file)
 
-PyPhantomJS is licensed with the GNU GPL v3.  
-See the included file LICENSE for the licensing terms.
+PyPhantomJS is licensed with the GNU GPL v3. See the included file LICENSE for the licensing terms.
 
 ADDITIONAL INFO
 -----------------------------
@@ -53,6 +52,9 @@ This program is a port of PhantomJS to Python/PyQt4 (thus, PyPhantomJS).
          In most of these cases, the features were only changed to improve their
          reliability and performance, so they work more often/better, and break less.
        * There may also be additional features present that aren't in PhantomJS.
+  3. For whatever reason, PyPhantomJS was deleted from the upstream PhantomJS library,
+     so this separate repository was created. The old commit ids have been kept
+     in tact to facilitate referencing back to the upstream versions.
 
 PhantomJS was written by Ariya Hidayat, and I'd like to give him a BIG thanks
 for all his work on PhantomJS! :)
