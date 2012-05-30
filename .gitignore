@@ -1,0 +1,22 @@
+.DS_Store
+*.pro.user*
+*.xcodeproj
+Makefile*
+bin/phantomjs
+*~
+*.moc
+moc_*
+qrc_*
+*.o
+*.swp
+*.pyc
+debian/*.debhelper
+debian/files
+debian/*.log
+debian/*.substvars
+debian/*/
+/deploy/qt-*.tar.gz
+/deploy/Qt-*
+
+# ignore ctags
+/tags
